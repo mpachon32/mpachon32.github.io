@@ -1,0 +1,60 @@
+/* RESETEAR LOS ESTILOS */
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-color: lightslategray;
+    height:  80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+.nav-menu-item{
+    font-size: 20px;
+    margin:  20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+
+.seccion1{
+    background-color: blue;
+    height: 100px;
+    margin: 150px 0 50px 0;
+}
+.seccion2{
+    background-color: brown;
+    height: 100px;
+}
+.seccion3{
+    background-color: blueviolet;
+    height: 100px;
+    margin: 40px;
+}
+.seccion4{
+    background-color: green;
+    height: 100px;
+    padding: 30px;
+}
